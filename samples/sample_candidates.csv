@@ -1,0 +1,9 @@
+name,email,phone,current_company,title,linkedin,github,location_city,location_country,years_experience,skills,education_institution,education_degree,education_field,education_end_year
+Aarav Mehta,aarav.mehta@gmail.com,+919876543210,Infosys,Software Engineer,linkedin.com/in/aaravmehta,github.com/aaravmehta,Bengaluru,IN,3,"Python,Django,PostgreSQL,Docker",IIT Bombay,B.Tech,Computer Science,2021
+Priya Sharma,priya.sharma@outlook.com,09123456789,TCS,Data Analyst,linkedin.com/in/priyasharma,,Mumbai,IN,2,"SQL,Python,Tableau,Excel",University of Mumbai,B.Sc,Statistics,2022
+Rohan Verma,rohan.v@yahoo.com,(+91) 98001-23456,Wipro,Backend Developer,linkedin.com/in/rohanv,github.com/rohanverma,Hyderabad,IN,5,"Java,Spring Boot,Kafka,AWS,Microservices",BITS Pilani,B.E,Electronics,2019
+Sneha Patel,sneha.patel@hotmail.com,8800112233,Startupxyz,Full Stack Engineer,,github.com/snehap,Pune,IN,4,"React,Node.js,MongoDB,TypeScript,GraphQL",Pune University,B.E,Information Technology,2020
+Karan Singh,karan.singh@gmail.com,+1-415-555-0192,Google,Senior SWE,linkedin.com/in/karansingh,github.com/karansingh,San Francisco,US,7,"Python,Go,Kubernetes,GCP,Machine Learning",IIT Delhi,B.Tech,Computer Science,2017
+Divya Nair,divya.nair@protonmail.com,,Freelance,ML Engineer,linkedin.com/in/divyanair,github.com/divyanair,Chennai,IN,6,"TensorFlow,PyTorch,Python,NLP,Scikit-learn",Anna University,M.Tech,AI,2018
+Amit Kumar,amit.kumar99@gmail.com,7799881122,Amazon,SDE-2,,github.com/amitkumar,Delhi,IN,4,"Java,Python,DynamoDB,Lambda,CDK",Delhi University,B.Tech,IT,2020
+Ritu Agarwal,ritu.agarwal@gmail.com,+919988776655,Microsoft,Product Manager,linkedin.com/in/rituagarwal,,Bengaluru,IN,5,"Product Management,Agile,SQL,Jira,Figma",IIM Ahmedabad,MBA,Product,2019

@@ -1,0 +1,883 @@
+{
+  "generated_at": "2026-06-30T12:31:28.481232+00:00",
+  "total": 8,
+  "candidates": [
+    {
+      "candidate_id": "C-BCC263F8",
+      "full_name": "Aarav Mehta",
+      "emails": [
+        "aarav.mehta@gmail.com"
+      ],
+      "phones": [
+        "+919876543210"
+      ],
+      "location": {
+        "city": "Bangalore",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": "https://linkedin.com/in/aaravmehta",
+        "github": "https://github.com/aaravmehta",
+        "blog": null
+      },
+      "headline": "Software Engineer",
+      "years_experience": 3.0,
+      "experience": [
+        {
+          "company": "Infosys Limited",
+          "title": "Software Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "python",
+        "django",
+        "postgresql",
+        "docker",
+        "redis",
+        "microservices"
+      ],
+      "education": [
+        {
+          "institution": "IIT Bombay",
+          "degree": "Bachelor of Technology",
+          "field": "CSE",
+          "end_year": 2021,
+          "end_year_normalized": "2021-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "bio",
+          "source": "txt",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "phones",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json,csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "ats_json,csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "ats_json,csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 1.0,
+      "confidence": 1.0
+    },
+    {
+      "candidate_id": "C-E3AAA8E4",
+      "full_name": "Priya Sharma",
+      "emails": [
+        "priya.sharma@outlook.com"
+      ],
+      "phones": [
+        "+919123456789"
+      ],
+      "location": {
+        "city": "Mumbai",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": "linkedin.com/in/priyasharma",
+        "github": null,
+        "blog": null
+      },
+      "headline": "Data Analyst",
+      "years_experience": 2.0,
+      "experience": [
+        {
+          "company": "TCS",
+          "title": "Data Analyst",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "sql",
+        "python",
+        "tableau",
+        "excel",
+        "machine-learning"
+      ],
+      "education": [
+        {
+          "institution": "University of Mumbai",
+          "degree": "B.Sc",
+          "field": "Statistics",
+          "end_year": 2022,
+          "end_year_normalized": "2022-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "bio",
+          "source": "txt",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "phones",
+          "source": "csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-2A2C1E98",
+      "full_name": "Rohan Verma",
+      "emails": [
+        "rohan.v@yahoo.com"
+      ],
+      "phones": [
+        "+919800123456"
+      ],
+      "location": {
+        "city": "Hyderabad",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": "linkedin.com/in/rohanv",
+        "github": "github.com/rohanverma",
+        "blog": null
+      },
+      "headline": "Backend Developer",
+      "years_experience": 5.0,
+      "experience": [
+        {
+          "company": "Wipro",
+          "title": "Backend Developer",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "java",
+        "spring-boot",
+        "kafka",
+        "aws",
+        "microservices",
+        "spring"
+      ],
+      "education": [
+        {
+          "institution": "BITS Pilani",
+          "degree": "B.E",
+          "field": "Electronics",
+          "end_year": 2019,
+          "end_year_normalized": "2019-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "bio",
+          "source": "txt",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "phones",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-F402B152",
+      "full_name": "Sneha Patel",
+      "emails": [
+        "sneha.patel@hotmail.com"
+      ],
+      "phones": [
+        "+918800112233"
+      ],
+      "location": {
+        "city": "Pune",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": null,
+        "github": "github.com/snehap",
+        "blog": null
+      },
+      "headline": "Full Stack Engineer",
+      "years_experience": 4.0,
+      "experience": [
+        {
+          "company": "Startupxyz",
+          "title": "Full Stack Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "react",
+        "node.js",
+        "mongodb",
+        "typescript",
+        "graphql"
+      ],
+      "education": [
+        {
+          "institution": "Pune University",
+          "degree": "B.E",
+          "field": "Information Technology",
+          "end_year": 2020,
+          "end_year_normalized": "2020-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "bio",
+          "source": "txt",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "phones",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-22CA5937",
+      "full_name": "Karan Singh",
+      "emails": [
+        "karan.singh@gmail.com"
+      ],
+      "phones": [
+        "+14155550192"
+      ],
+      "location": {
+        "city": "San Francisco",
+        "region": null,
+        "country": "US"
+      },
+      "links": {
+        "linkedin": "https://linkedin.com/in/karansingh",
+        "github": "https://github.com/karansingh",
+        "blog": null
+      },
+      "headline": "Senior Software Engineer",
+      "years_experience": 7.0,
+      "experience": [
+        {
+          "company": "Google LLC",
+          "title": "Senior Software Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        },
+        {
+          "company": "Google",
+          "title": "Senior SWE",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "python",
+        "go",
+        "kubernetes",
+        "gcp",
+        "machine-learning",
+        "distributed-systems"
+      ],
+      "education": [
+        {
+          "institution": "IIT Delhi",
+          "degree": "Bachelor of Technology",
+          "field": "Computer Science",
+          "end_year": 2017,
+          "end_year_normalized": "2017-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "phones",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "ats_json,csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 1.0,
+      "confidence": 1.0
+    },
+    {
+      "candidate_id": "C-7CEAB7E5",
+      "full_name": "Divya Nair",
+      "emails": [
+        "divya.nair@protonmail.com"
+      ],
+      "phones": null,
+      "location": {
+        "city": "Chennai",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": "https://linkedin.com/in/divyanair",
+        "github": "https://github.com/divyanair",
+        "blog": null
+      },
+      "headline": "ML Engineer",
+      "years_experience": 6.0,
+      "experience": [
+        {
+          "company": "Freelance",
+          "title": "ML Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "tensorflow",
+        "pytorch",
+        "python",
+        "natural-language-processing",
+        "scikit-learn",
+        "machine-learning"
+      ],
+      "education": [
+        {
+          "institution": "Anna University",
+          "degree": "Master of Technology",
+          "field": "Artificial Intelligence",
+          "end_year": 2018,
+          "end_year_normalized": "2018-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "ats_json",
+          "method": "direct"
+        },
+        {
+          "field": "bio",
+          "source": "txt",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "ats_json,csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json,csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "ats_json,csv,txt",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "ats_json,csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "ats_json,csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 1.0,
+      "confidence": 1.0
+    },
+    {
+      "candidate_id": "C-A5C0689D",
+      "full_name": "Amit Kumar",
+      "emails": [
+        "amit.kumar99@gmail.com"
+      ],
+      "phones": [
+        "+917799881122"
+      ],
+      "location": {
+        "city": "Delhi",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": null,
+        "github": "github.com/amitkumar",
+        "blog": null
+      },
+      "headline": "SDE-2",
+      "years_experience": 4.0,
+      "experience": [
+        {
+          "company": "Amazon",
+          "title": "SDE-2",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "java",
+        "python",
+        "dynamodb",
+        "lambda",
+        "cdk"
+      ],
+      "education": [
+        {
+          "institution": "Delhi University",
+          "degree": "B.Tech",
+          "field": "IT",
+          "end_year": 2020,
+          "end_year_normalized": "2020-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "phones",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "candidate_id": "C-EFB84EFA",
+      "full_name": "Ritu Agarwal",
+      "emails": [
+        "ritu.agarwal@gmail.com"
+      ],
+      "phones": [
+        "+919988776655"
+      ],
+      "location": {
+        "city": "Bengaluru",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": "linkedin.com/in/rituagarwal",
+        "github": null,
+        "blog": null
+      },
+      "headline": "Product Manager",
+      "years_experience": 5.0,
+      "experience": [
+        {
+          "company": "Microsoft",
+          "title": "Product Manager",
+          "start": null,
+          "end": null,
+          "summary": null
+        }
+      ],
+      "skills": [
+        "product-management",
+        "agile",
+        "sql",
+        "jira",
+        "figma"
+      ],
+      "education": [
+        {
+          "institution": "IIM Ahmedabad",
+          "degree": "MBA",
+          "field": "Product",
+          "end_year": 2019,
+          "end_year_normalized": "2019-01"
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "location",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "current_company",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "title",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "years_experience",
+          "source": "csv",
+          "method": "direct"
+        },
+        {
+          "field": "emails",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "phones",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "skills",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "links",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "education",
+          "source": "csv",
+          "method": "merged"
+        },
+        {
+          "field": "experience",
+          "source": "csv",
+          "method": "merged"
+        }
+      ],
+      "overall_confidence": 0.95,
+      "confidence": 0.95
+    }
+  ]
+}

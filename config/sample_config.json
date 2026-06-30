@@ -1,0 +1,31 @@
+{
+  "_comment": "Sample config — strict ATS-style output: only required fields, omit optionals, no source provenance.",
+  "include_confidence": true,
+  "include_sources": false,
+  "on_missing": "null",
+  "fields": [
+    {
+      "path": "full_name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "primary_email",
+      "from": "emails[0]",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "phone",
+      "from": "phones[0]",
+      "type": "string",
+      "normalize": "E164"
+    },
+    {
+      "path": "skills",
+      "from": "skills",
+      "type": "string[]",
+      "normalize": "canonical"
+    }
+  ]
+}

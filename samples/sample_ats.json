@@ -1,0 +1,93 @@
+{
+  "ats_export_version": "2.1",
+  "exported_at": "2026-06-01T10:00:00Z",
+  "applicants": [
+    {
+      "applicant_id": "ATS-001",
+      "personal": {
+        "first": "Aarav",
+        "last": "Mehta",
+        "contact_email": "aarav.mehta@gmail.com",
+        "mobile": "919876543210",
+        "city": "Bangalore",
+        "country_code": "IND"
+      },
+      "professional": {
+        "current_employer": "Infosys Limited",
+        "designation": "Software Engineer",
+        "total_exp_months": 36,
+        "tech_tags": ["python", "django", "postgresql", "docker", "redis"]
+      },
+      "academics": [
+        {
+          "inst": "IIT Bombay",
+          "qual": "Bachelor of Technology",
+          "stream": "CSE",
+          "pass_year": 2021
+        }
+      ],
+      "social": {
+        "li_url": "https://linkedin.com/in/aaravmehta",
+        "gh_url": "https://github.com/aaravmehta"
+      }
+    },
+    {
+      "applicant_id": "ATS-002",
+      "personal": {
+        "first": "Karan",
+        "last": "Singh",
+        "contact_email": "karan.singh@gmail.com",
+        "mobile": "14155550192",
+        "city": "San Francisco",
+        "country_code": "USA"
+      },
+      "professional": {
+        "current_employer": "Google LLC",
+        "designation": "Senior Software Engineer",
+        "total_exp_months": 84,
+        "tech_tags": ["python", "golang", "kubernetes", "gcp", "machine-learning", "distributed-systems"]
+      },
+      "academics": [
+        {
+          "inst": "IIT Delhi",
+          "qual": "Bachelor of Technology",
+          "stream": "Computer Science",
+          "pass_year": 2017
+        }
+      ],
+      "social": {
+        "li_url": "https://linkedin.com/in/karansingh",
+        "gh_url": "https://github.com/karansingh"
+      }
+    },
+    {
+      "applicant_id": "ATS-003",
+      "personal": {
+        "first": "Divya",
+        "last": "Nair",
+        "contact_email": "divya.nair@protonmail.com",
+        "mobile": null,
+        "city": "Chennai",
+        "country_code": "IND"
+      },
+      "professional": {
+        "current_employer": "Freelance",
+        "designation": "ML Engineer",
+        "total_exp_months": 72,
+        "tech_tags": ["tensorflow", "pytorch", "nlp", "python", "scikit-learn"]
+      },
+      "academics": [
+        {
+          "inst": "Anna University",
+          "qual": "Master of Technology",
+          "stream": "Artificial Intelligence",
+          "pass_year": 2018
+        }
+      ],
+      "social": {
+        "li_url": "https://linkedin.com/in/divyanair",
+        "gh_url": "https://github.com/divyanair"
+      }
+    }
+  ]
+}

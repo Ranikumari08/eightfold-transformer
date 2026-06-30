@@ -1,0 +1,65 @@
+{
+  "_comment": "Default pipeline configuration — outputs all canonical fields with null for missing values.",
+  "include_confidence": true,
+  "include_sources": true,
+  "on_missing": "null",
+  "fields": [
+    {
+      "path": "candidate_id",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "full_name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "emails",
+      "type": "string[]",
+      "on_missing": "null"
+    },
+    {
+      "path": "phones",
+      "type": "string[]"
+    },
+    {
+      "path": "location",
+      "type": "object"
+    },
+    {
+      "path": "links",
+      "type": "object"
+    },
+    {
+      "path": "headline",
+      "from": "title",
+      "type": "string"
+    },
+    {
+      "path": "years_experience",
+      "type": "number"
+    },
+    {
+      "path": "experience",
+      "type": "object[]"
+    },
+    {
+      "path": "skills",
+      "type": "object[]"
+    },
+    {
+      "path": "education",
+      "type": "object[]"
+    },
+    {
+      "path": "provenance",
+      "from": "_sources",
+      "type": "object[]"
+    },
+    {
+      "path": "overall_confidence",
+      "type": "number"
+    }
+  ]
+}

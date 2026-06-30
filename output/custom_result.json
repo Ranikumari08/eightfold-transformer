@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-06-30T12:31:29.948636+00:00",
+  "total": 8,
+  "candidates": [
+    {
+      "full_name": "Aarav Mehta",
+      "primary_email": "aarav.mehta@gmail.com",
+      "phone": "+919876543210",
+      "skills": [
+        "python",
+        "django",
+        "postgresql",
+        "docker"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "full_name": "Priya Sharma",
+      "primary_email": "priya.sharma@outlook.com",
+      "phone": "+919123456789",
+      "skills": [
+        "sql",
+        "python",
+        "tableau",
+        "excel"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "full_name": "Rohan Verma",
+      "primary_email": "rohan.v@yahoo.com",
+      "phone": "+919800123456",
+      "skills": [
+        "java",
+        "spring-boot",
+        "kafka",
+        "aws",
+        "microservices"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "full_name": "Sneha Patel",
+      "primary_email": "sneha.patel@hotmail.com",
+      "phone": "+918800112233",
+      "skills": [
+        "react",
+        "node.js",
+        "mongodb",
+        "typescript",
+        "graphql"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "full_name": "Karan Singh",
+      "primary_email": "karan.singh@gmail.com",
+      "phone": "+14155550192",
+      "skills": [
+        "python",
+        "go",
+        "kubernetes",
+        "gcp",
+        "machine-learning"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "full_name": "Divya Nair",
+      "primary_email": "divya.nair@protonmail.com",
+      "phone": null,
+      "skills": [
+        "tensorflow",
+        "pytorch",
+        "python",
+        "natural-language-processing",
+        "scikit-learn"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "full_name": "Amit Kumar",
+      "primary_email": "amit.kumar99@gmail.com",
+      "phone": "+917799881122",
+      "skills": [
+        "java",
+        "python",
+        "dynamodb",
+        "lambda",
+        "cdk"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "full_name": "Ritu Agarwal",
+      "primary_email": "ritu.agarwal@gmail.com",
+      "phone": "+919988776655",
+      "skills": [
+        "product-management",
+        "agile",
+        "sql",
+        "jira",
+        "figma"
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

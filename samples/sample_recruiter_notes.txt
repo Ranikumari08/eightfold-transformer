@@ -1,0 +1,38 @@
+=== Recruiter Notes — Eightfold Engineering Hiring Round ===
+
+--- Candidate: Aarav Mehta ---
+Date: 2026-05-10
+Spoke with Aarav today. Strong Python background, worked on microservices at Infosys for about 3 years.
+He mentioned he also knows Redis and has dabbled in React. Good communication skills.
+Current CTC: 12 LPA. Expects: 18 LPA. Notice period: 60 days.
+LinkedIn: linkedin.com/in/aaravmehta
+NOTE: Phone number he gave verbally was 98765-43210 (confirm against CSV).
+
+--- Candidate: Priya Sharma ---
+Date: 2026-05-12
+Priya comes from a strong analytics background. Self-taught Python. Very good with Tableau dashboards.
+Mentioned she completed a Coursera ML certification in 2025.
+She said her phone is 91-9123456789.
+No GitHub. Prefers remote work only.
+NOTE: Email bounced once — may need to verify.
+
+--- Candidate: Rohan Verma ---
+Date: 2026-05-14
+Rohan is a solid backend guy. 5 years in Java/Spring ecosystem at Wipro.
+Also has AWS certifications (Solutions Architect – Associate, 2024).
+Interested in moving to a product company.
+Phone confirmed: +91-98001-23456
+
+--- Candidate: Sneha Patel ---
+Date: 2026-05-15
+Sneha is a self-starter, runs her own freelance projects. Strong React + Node.
+GitHub is very active — check github.com/snehap for public projects.
+She couldn't remember exact graduation year — said "around 2020".
+No phone provided during call. Will follow up on email.
+
+--- Candidate: Divya Nair ---
+Date: 2026-05-18
+Divya is exceptional. 6 years in ML, published 2 papers on NLP.
+No phone on file. Works remotely from Chennai.
+Email: divya.nair@protonmail.com (confirmed).
+Currently interviewing with 2 other companies — move fast.

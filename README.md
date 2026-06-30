@@ -22,8 +22,20 @@ eightfold_transformer/
 ## Installation
 
 ```bash
+python -m venv venv
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # macOS/Linux
+
 pip install -r requirements.txt
 ```
+## Dependencies
+
+pandas — CSV parsing
+phonenumbers — phone normalization to E.164
+requests — GitHub API calls
+colorama — colored terminal output
+python-dateutil — date normalization
+pytest — test suite
 
 ## Usage
 
@@ -36,7 +48,10 @@ Run with custom config:
 ```bash
 python main.py --csv samples/sample_candidates.csv --config config/sample_config.json --output output/custom_result.json
 ```
-
+Run with a missing/garbage source (graceful degradation check):
+```bash
+python main.py --csv samples/doesnotexist.csv --output output/test.json
+```
 ## Running Tests
 
 ```bash
@@ -97,3 +112,20 @@ pytest tests/
   ]
 }
 ```
+
+## Assumptions
+
+The same candidate is matched across sources by email address as the primary key, since email was the only consistently present unique identifier across all four sample sources.
+Structured sources (CSV, ATS JSON) are treated as more reliable than unstructured sources (recruiter notes, GitHub bio) when resolving conflicting field values.
+When a field appears in 2+ sources with matching values, confidence is boosted; when sources disagree, the higher-confidence source wins for scalar fields, while list fields (skills, emails) are unioned rather than overwritten.
+GitHub API calls use unauthenticated public endpoints (api.github.com/users/{username}), which are rate-limited; this is acceptable for a sample/demo scale but would need an auth token for production volume.
+Country names/codes from different sources (IND, IN, India) are normalized to ISO-3166 alpha-2 (IN).
+
+## Limitations
+
+Resume PDF/DOCX parsing is not implemented in this submission — the pipeline supports CSV, ATS JSON, recruiter notes (.txt), and GitHub, which satisfies "at least one from each group," but resume ingestion was descoped under time pressure.
+Experience entries are not deduplicated when company names differ slightly across sources (e.g. "Infosys" from CSV vs "Infosys Limited" from ATS JSON appear as two separate experience entries instead of being merged into one).
+experience[].start and experience[].end are always null — none of the sample sources contain explicit employment date ranges, so this field is structurally supported but unpopulated. A resume-parsing source would be the natural way to fill this in.
+GitHub matching only works by explicit username passed via --github, not by guessing a username from a candidate's name or other fields.
+Confidence scoring uses a simple weighted heuristic (source reliability + cross-source agreement bonus), not a calibrated probabilistic model.
+
